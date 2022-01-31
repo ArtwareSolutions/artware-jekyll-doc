@@ -49,3 +49,8 @@ git remote add origin https://github.com/ArtwareSolutions/artware-doc.git
 git remote -v
 
 git push -u origin main
+
+
+### [build](https://jekyllrb.com/docs/step-by-step/01-setup/#build)
+
+jekyll build
