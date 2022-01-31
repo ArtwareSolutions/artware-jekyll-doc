@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Welcome to Artware!"
 date:   2022-01-31 07:07:34 -0500
 categories: jekyll update
 ---
