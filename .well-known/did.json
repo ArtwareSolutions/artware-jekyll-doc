@@ -1,0 +1,48 @@
+{
+    "id": "did:web:artwaresolutions.org",
+    "@context": [
+      "https://www.w3.org/ns/did/v1",
+      {
+        "@base": "did:web:artwaresolutions.org"
+      }
+    ],
+    "service": [
+      {
+        "id": "#linkeddomains",
+        "type": "LinkedDomains",
+        "serviceEndpoint": {
+          "origins": [
+            "https://artwaresolutions.org/"
+          ]
+        }
+      },
+      {
+        "id": "#hub",
+        "type": "IdentityHub",
+        "serviceEndpoint": {
+          "instances": [
+            "https://hub.did.msidentity.com/v1.0/f4bbff6b-9134-41ea-9abb-d02974e31e4a"
+          ]
+        }
+      }
+    ],
+    "verificationMethod": [
+      {
+        "id": "#da6d17ddd0314fcebe4b17408f0c99cfvcSigningKey-50a12",
+        "controller": "did:web:artwaresolutions.org",
+        "type": "EcdsaSecp256k1VerificationKey2019",
+        "publicKeyJwk": {
+          "crv": "secp256k1",
+          "kty": "EC",
+          "x": "MmeTyQTqOCwvciALoRi9KFh3ba-jP9ggaIetdTBOEfA",
+          "y": "gygODTbqL5pPD93v-j3O8pfsP7bRo1JMHKoRzbo6mzQ"
+        }
+      }
+    ],
+    "authentication": [
+      "#da6d17ddd0314fcebe4b17408f0c99cfvcSigningKey-50a12"
+    ],
+    "assertionMethod": [
+      "#da6d17ddd0314fcebe4b17408f0c99cfvcSigningKey-50a12"
+    ]
+  }
